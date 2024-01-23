@@ -1,0 +1,132 @@
+html{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+
+
+margin: 0;
+background-color: #efefef;
+
+}
+
+/*titulo*/
+
+header {
+
+    background-color: #ff7c01;
+    color: white;
+    padding: 3rem 2rem;
+
+}
+
+
+header h1 {
+
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+
+/*navegador*/
+
+nav {
+    background-color: #222222;
+    padding: 1rem 2rem;
+    height: 5rem;
+    display: flex;      /*CENTRAR EN EL EJE HORIZONTAL NOJODA!*/
+    justify-content: center;
+}
+
+nav a {
+    transition: color 0.3s ease;
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 2rem;
+    line-height: 1.5rem;
+}
+
+nav a:hover {
+    color: rgb(223, 166, 60);
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    margin: 1rem;
+}
+
+
+/*impedir que al colocar los elementos del ul lado a lado el siguiente elemento tambien haga dicha acción*/
+
+.clearfix {
+    clear: both;
+}
+
+
+/*tarjetas tipo instagram*/
+
+.container {
+
+    width: 943px;
+    margin: 0 auto;
+    padding: 1rem;
+
+}
+
+
+section article {
+    transition: box-shadow 0.3s ease;
+    background-color: white;
+    margin: 1rem 0rem;
+    border-radius: 0.5rem;
+    padding: 1rem 0;
+}
+
+
+section article h2, section article p, section input {
+    margin: 1rem;
+}
+
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
+
+.comment {
+    width: 800px;
+}
+
+
+/*pie de página*/
+
+footer {
+    background-color: #222;
+    padding: 3rem;
+    color: #fff;
+}
+
+
+footer section {
+    float: right;
+}
+
+
+footer p {
+    margin: 0;
+}
+
+
+footer a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+footer a:hover {
+    color: rgb(223, 166, 60);
+}
